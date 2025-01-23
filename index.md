@@ -45,7 +45,7 @@ continuous delivery culture, i like open source projects.
   - CouchDB, Cloudant
   - Docker, Kubernetes
   - PostgreSQL, Microsoft SQL, MySql
-  - AWS CodeBuild, EC2, S3, Route 53
+  - AWS CodeBuild,CodePipeline, API Gateway, EB, Lambda EC2, S3, Route 53
   - Akamai, Cloudfront
   - Travis, CircleCI, Tekton
 
