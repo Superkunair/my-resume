@@ -53,6 +53,10 @@ continuous delivery culture, i like open source projects.
 #### Bachelor in Software Engineering, Universidad del valle de México, Guadalajara (August 2016 — August 2019)
 
 ## Courses:
+#### AWS Certified Developer – Associate</h4>
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="f8960533-9d64-4753-a5ce-b4ada886f086" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
 #### CKAD: Certified Kubernetes Application Developer
   - [CKAD: Certified Kubernetes Application Developer](https://www.credly.com/badges/e8bb0575-8d78-43e0-82c9-530a44be852d)
 
