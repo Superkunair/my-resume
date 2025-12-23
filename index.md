@@ -8,11 +8,22 @@ Innovative Software Engineer with 5+ years of experience making web applications
 continuous delivery culture, i like open source projects. 
 
 ## Experience
-### Solution Consultant, Software Engineer TEOPM, Utah (Contract) August 2021 — March 2023
+### Solution Consultant, Software Engineer TEOPM, Utah (Contract) August 2021 — Present
 *   Created various CI/CD pipeline in aws for on-prem data migration
 *   Created React  apps for SPA and PWA for data display in a CRM Platform (Smartsheet)
 *   Created apps using Java and Spring for on-prem data visualization
 *   Lead Projects that involved clients from other companies (Customer  Requirements, Design architectures using aws)
+*   Create Data migration apps to replicate data from Smartsheet into Salesforce CRM 
+* * *
+
+### Solution Consultant, Cloud Engineer GEO-CX , Arizona (Contract) September 2025 — Present
+* Spearheaded migration of legacy codebases to a modern AWS architecture, reducing infrastructure costs by 50% and improving scalability for high-traffic applications.
+
+* Orchestrated seamless project migration from EC2 to Elastic Beanstalk using Next.js and Node.js frontend/backend stacks; configured Application Load Balancer (ALB) with auto-scaling groups, SSL termination, and health checks to achieve 99.9% uptime.
+
+* Designed and implemented organization-wide deployment pipelines for webapp (https://app.geo-cx.com/) leveraging AWS CodeBuild, CodePipeline, and PM2 for process management, enabling zero-downtime blue-green deployments and cutting release cycles from [X] days to hours.
+
+* Engineered automated mobile CI/CD pipelines with AWS CodeBuild for iOS and Android app stores; integrated Fastlane and Match for secure code signing, AWS Secrets Manager for credential rotation, accelerating deployments by 100% while ensuring compliance with App Store security standards.
 
 * * *
 
@@ -45,7 +56,10 @@ continuous delivery culture, i like open source projects.
   - CouchDB, Cloudant
   - Docker, Kubernetes
   - PostgreSQL, Microsoft SQL, MySql
-  - AWS CodeBuild,CodePipeline, API Gateway, EB, Lambda EC2, S3, Route 53
+  - Azure App Service, Azure Functions, Blob Storage, Data Factory
+  - Android & iOS Pipelines
+  - Flutter
+  - AWS CodeBuild,CodePipeline, API Gateway, EB, Lambda EC2, S3, Route 53, ACM, ALB, AWS Secrets Manager
   - Akamai, Cloudfront
   - Travis, CircleCI, Tekton
 
