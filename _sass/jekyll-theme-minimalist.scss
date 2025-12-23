@@ -280,6 +280,18 @@ footer {
   pre, code {
     word-wrap:normal;
   }
+
+  .wrapper {
+    padding: 0 15px;
+  }
+
+  .sidebar {
+    padding: 30px 0;
+  }
+
+  section {
+    padding: 20px 0;
+  }
 }
 
 .link-wrapper-mobile {
@@ -295,6 +307,33 @@ footer {
 @media print, screen and (max-width: 480px) {
   body {
     padding:15px;
+  }
+
+  .wrapper {
+    padding: 0 10px;
+  }
+
+  .sidebar {
+    padding: 20px 0;
+    height: auto;
+    overflow: visible;
+  }
+
+  section {
+    padding: 15px 0;
+    margin: 0;
+  }
+
+  .skillbar {
+    margin: 10px 0;
+    height: 30px;
+  }
+
+  .skillbar-title, .skillbar-title-black {
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 15px;
   }
 
   // header ul {

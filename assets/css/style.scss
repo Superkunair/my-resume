@@ -73,13 +73,13 @@
 
 .skillbar {
   position: relative;
-  display: inline-block;
+  display: block;
   margin: 15px 0;
   width: 100%;
   background: #eee;
   height: 35px;
   border-radius: 3px;
-  width: 100%;
+  box-sizing: border-box;
 }
 
 .skillbar-title {
@@ -143,4 +143,47 @@
   line-height: 35px;
   color: #ffffff;
   color: rgba(0, 0, 0, 0.4);
+}
+
+/* Mobile responsive skill bars */
+@media screen and (max-width: 768px) {
+  .skillbar {
+    margin: 12px 0;
+    height: 32px;
+  }
+
+  .skillbar-title, .skillbar-title-black {
+    font-size: 12px;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 12px;
+  }
+
+  .skill-bar-percent {
+    font-size: 10px;
+    height: 32px;
+    line-height: 32px;
+    right: 8px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .skillbar {
+    margin: 10px 0;
+    height: 28px;
+  }
+
+  .skillbar-title, .skillbar-title-black {
+    font-size: 11px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 10px;
+  }
+
+  .skill-bar-percent {
+    font-size: 9px;
+    height: 28px;
+    line-height: 28px;
+    right: 6px;
+  }
 }
