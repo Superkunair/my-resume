@@ -14,7 +14,8 @@ continuous delivery culture, I like open source projects and cloud technologies.
 *   Created apps using Java and Spring for on-prem data visualization
 *   Lead Projects that involved clients from other companies (Customer  Requirements, Design architectures using aws)
 *   Create Data migration apps to replicate data from Smartsheet into Salesforce CRM 
-* Create Event queue AWS SNS re-processing system that saves missing or failed events across micro-services, this was achieved using AWS Cognito, Lambda, S3 and RDS, having a total cost of 0.1 USD per month 
+*   Create Event queue AWS SNS re-processing system that saves missing or failed events across micro-services, this was achieved using AWS Cognito, Lambda, S3 and RDS, having a total cost of 0.1 USD per month
+
 * * *
 
 ### Solution Consultant, Cloud Engineer GEO-CX , Arizona (Contract) September 2025 — Present
@@ -22,7 +23,7 @@ continuous delivery culture, I like open source projects and cloud technologies.
 
 * Orchestrated seamless project migration from EC2 to Elastic Beanstalk using Next.js and Node.js frontend/backend stacks; configured Application Load Balancer (ALB) with auto-scaling groups, SSL termination, and health checks to achieve 99.9% uptime.
 
-* Designed and implemented organization-wide deployment pipelines for webapp (https://app.geo-cx.com/) leveraging AWS CodeBuild, CodePipeline, and PM2 for process management, enabling zero-downtime blue-green deployments and cutting release cycles from [X] days to hours.
+* Designed and implemented organization-wide deployment pipelines for webapp (https://app.geo-cx.com/) leveraging AWS CodeBuild, CodePipeline, and PM2 for process management, enabling zero-downtime blue-green deployments.
 
 * Engineered automated mobile CI/CD pipelines with AWS CodeBuild for iOS and Android app stores; integrated Fastlane and Match for secure code signing, AWS Secrets Manager for credential rotation, accelerating deployments by 100% while ensuring compliance with App Store security standards.
 
