@@ -4,8 +4,8 @@ layout: default
 
 ## About me
 
-Innovative Software Engineer with 5+ years of experience making web applications, with high adaptability skills, experienced with SDLC, and 
-continuous delivery culture, i like open source projects. 
+Innovative Software Engineer with 6+ years of experience making web applications, with high adaptability skills, experienced with SDLC, and 
+continuous delivery culture, I like open source projects and cloud technologies.
 
 ## Experience
 ### Solution Consultant, Software Engineer TEOPM, Utah (Contract) August 2021 — Present
@@ -14,6 +14,7 @@ continuous delivery culture, i like open source projects.
 *   Created apps using Java and Spring for on-prem data visualization
 *   Lead Projects that involved clients from other companies (Customer  Requirements, Design architectures using aws)
 *   Create Data migration apps to replicate data from Smartsheet into Salesforce CRM 
+* Create Event queue AWS SNS re-processing system that saves missing or failed events across micro-services, this was achieved using AWS Cognito, Lambda, S3 and RDS, having a total cost of 0.1 USD per month 
 * * *
 
 ### Solution Consultant, Cloud Engineer GEO-CX , Arizona (Contract) September 2025 — Present
@@ -39,6 +40,7 @@ continuous delivery culture, i like open source projects.
 - Support apps with an Event Driven Architecture using CDC pattern
 - Work with database version control managers (Liquid Base and Flyway)
 - Created various cloud native back-end services using Openshift (using Quarkus)
+- Create re-usable InnerSource system that handles Single-Sign-On logins, over 500 downloads and usage in organization 
 
 * * *
 
@@ -59,14 +61,17 @@ continuous delivery culture, i like open source projects.
   - Azure App Service, Azure Functions, Blob Storage, Data Factory
   - Android & iOS Pipelines
   - Flutter
-  - AWS CodeBuild,CodePipeline, API Gateway, EB, Lambda EC2, S3, Route 53, ACM, ALB, AWS Secrets Manager
+  - AWS CodeBuild,CodePipeline, API Gateway, EB, Lambda EC2, S3, Route 53, ACM, ALB, AWS Secrets Manager, Cognito
   - Akamai, Cloudfront
   - Travis, CircleCI, Tekton
 
 ## Education:
 #### Bachelor in Software Engineering, Universidad del valle de México, Guadalajara (August 2016 — August 2019)
 
-## Courses:
+## Articles:
+ - [Shai-hulud: the new threat that is hunting NPM packages and stealing cloud credentials](https://medium.com/@jordanaxelhernandez/shai-hulud-the-new-threat-that-is-hunting-npm-packages-and-stealing-cloud-credentials-03abdf9fefd1) 
+
+## Certifications:
 
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="f8960533-9d64-4753-a5ce-b4ada886f086" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
