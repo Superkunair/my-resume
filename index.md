@@ -42,6 +42,7 @@ continuous delivery culture, I like open source projects and cloud technologies.
 - Work with database version control managers (Liquid Base and Flyway)
 - Created various cloud native back-end services using Openshift (using Quarkus)
 - Create re-usable InnerSource system that handles Single-Sign-On logins, over 500 downloads and usage in organization 
+- Create an organizational MCP that scans OSS vulnerabilities and SAST results that solves vulnerabilities
 
 * * *
 
