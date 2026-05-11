@@ -4,7 +4,7 @@ layout: default
 
 ## About me
 
-Innovative Software Engineer with 6+ years of experience making web applications, with high adaptability skills, experienced with SDLC, and 
+Innovative Software Engineer with 7+ years of experience making web applications, with high adaptability skills, experienced with SDLC, and 
 continuous delivery culture, I like open source projects and cloud technologies.
 
 ## Experience
