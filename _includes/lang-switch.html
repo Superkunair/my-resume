@@ -1,0 +1,11 @@
+<nav class="lang-switch" style="font-size: 0.95rem;" aria-label="{% if page.lang == 'es' %}Idioma{% else %}Language{% endif %}">
+  {% if page.lang == 'es' %}
+    <a href="{{ '/' | relative_url }}">English</a>
+    <span aria-hidden="true"> · </span>
+    <span aria-current="page">Español</span>
+  {% else %}
+    <span aria-current="page">English</span>
+    <span aria-hidden="true"> · </span>
+    <a href="{{ '/es/' | relative_url }}">Español</a>
+  {% endif %}
+</nav>

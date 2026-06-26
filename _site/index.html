@@ -5,7 +5,7 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
 
 <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Jordan Axel Hernández Mercado | Software Engineer</title>
@@ -141,23 +141,93 @@
       </div>
       <section>
 
+      <div class="page-actions no-print">
+        <nav class="lang-switch" style="font-size: 0.95rem;" aria-label="Language">
+  
+    <span aria-current="page">English</span>
+    <span aria-hidden="true"> · </span>
+    <a href="/es/">Español</a>
+  
+</nav>
+
+        <button type="button" class="btn-pdf" id="export-pdf-btn" title="Opens the browser print dialog — choose “Save as PDF”.">
+  Save as PDF
+</button>
+
+        <a class="btn-docx" href="/assets/resume-en.docx" download title="Download the resume as a Word document (.docx). Regenerate files with `./script/export-docx.sh` after editing the Markdown.">
+  Download DOCX
+</a>
+
+      </div>
+
       <h2 id="about-me">About me</h2>
 
-<p>Innovative Software Engineer with 5+ years of experience making web applications, with high adaptability skills, experienced with SDLC, and 
-continuous delivery culture, i like open source projects.</p>
+<p>Innovative Software Engineer with 7+ years of experience making web applications, with high adaptability skills, experienced with SDLC, and 
+continuous delivery culture, I like open source projects and cloud technologies.</p>
 
 <h2 id="experience">Experience</h2>
-<h3 id="solution-consultant-software-engineer-teopm-utah-contract-august-2021--march-2023">Solution Consultant, Software Engineer TEOPM, Utah (Contract) August 2021 — March 2023</h3>
+
+<h3 id="software-developer-sit-digital-mexico--2025---2026">Software Developer, SIT Digital, Mexico  2025 - 2026</h3>
+
+<ul>
+  <li>
+    <p>Developer on Dolly App (Supply chain app) in charge of enhancing perfomance of app (from 10 seconds loading to 1 second in backend and frontend)</p>
+  </li>
+  <li>
+    <p>Complementos de Pago in charge of all of UI skeleton development and apply user stories to main project</p>
+  </li>
+</ul>
+
+<h3 id="solution-consultant-software-engineer-teopm-utah-contract-august-2021--present">Solution Consultant, Software Engineer TEOPM, Utah (Contract) August 2021 — Present</h3>
 <ul>
   <li>Created various CI/CD pipeline in aws for on-prem data migration</li>
   <li>Created React  apps for SPA and PWA for data display in a CRM Platform (Smartsheet)</li>
   <li>Created apps using Java and Spring for on-prem data visualization</li>
   <li>Lead Projects that involved clients from other companies (Customer  Requirements, Design architectures using aws)</li>
+  <li>Create Data migration apps to replicate data from Smartsheet into Salesforce CRM</li>
+  <li>
+    <p>Create Event queue AWS SNS re-processing system that saves missing or failed events across micro-services, this was achieved using AWS Cognito, Lambda, S3 and RDS, having a total cost of 0.1 USD per month</p>
+  </li>
+  <li>Provisioned and maintained AWS infrastructure using CloudFormation (templates, nested stacks, stack policies, change sets) and Terraform (modules, remote state, workspaces), with CI/CD hooks for plan/apply gates and repeatable dev/stage/prod rollouts.</li>
+  <li>
+    <p>Aligned provisioning workflows with Terraform where applicable and integrated orchestration into broader automation and delivery pipelines.</p>
+  </li>
+  <li>Operated container platforms on AWS using Amazon EKS for Kubernetes workloads, ECS (including Fargate launch types) for scalable task and service execution, and ECR for image repositories, vulnerability scanning, and promotion policies integrated into CI/CD rollouts.</li>
 </ul>
 
 <hr />
 
-<h3 id="software-developer-ibm-guadalajara-july-2019--present">Software Developer, IBM, Guadalajara July 2019 — Present</h3>
+<h3 id="solution-consultant-cloud-engineer-geo-cx--arizona-contract-september-2025--present">Solution Consultant, Cloud Engineer GEO-CX , Arizona (Contract) September 2025 — Present</h3>
+<ul>
+  <li>
+    <p>Spearheaded migration of legacy codebases to a modern AWS architecture, reducing infrastructure costs by 50% and improving scalability for high-traffic applications.</p>
+  </li>
+  <li>
+    <p>Orchestrated seamless project migration from EC2 to Elastic Beanstalk using Next.js and Node.js frontend/backend stacks; configured Application Load Balancer (ALB) with auto-scaling groups, SSL termination, and health checks to achieve 99.9% uptime.</p>
+  </li>
+  <li>
+    <p>Designed and implemented organization-wide deployment pipelines for webapp (https://app.geo-cx.com/) leveraging AWS CodeBuild, CodePipeline, and PM2 for process management, enabling zero-downtime blue-green deployments.</p>
+  </li>
+  <li>
+    <p>Engineered automated mobile CI/CD pipelines with AWS CodeBuild for iOS and Android app stores; integrated Fastlane and Match for secure code signing, AWS Secrets Manager for credential rotation, accelerating deployments by 100% while ensuring compliance with App Store security standards.</p>
+  </li>
+  <li>
+    <p>Integrate Maps, and google play android store deployments using GCP (Google Cloud platform)</p>
+  </li>
+  <li>
+    <p>Implement push notifications using GCP FireBase to add interactions with real time users chat</p>
+  </li>
+  <li>
+    <p>Delivered Huawei Cloud Platform integrations (ECS, OBS object storage, VPC networking, ELB, IAM, Cloud Eye monitoring) to extend GEO-CX workloads alongside AWS and GCP with consistent security and observability practices.</p>
+  </li>
+  <li>
+    <p>Automated deployments and environment promotion using Huawei Cloud DevOps services and infrastructure-as-code patterns to align releases with existing CI/CD standards.</p>
+  </li>
+</ul>
+
+<hr />
+
+<h3 id="software-developer-ibm-guadalajara-july-2019--2026">Software Developer, IBM, Guadalajara July 2019 — 2026</h3>
 <ul>
   <li>Created a database version control manager for NoSql (Cloudant, MongoDB) using Node.js</li>
   <li>Lead a small team for a Finance Application (Technical team)</li>
@@ -170,6 +240,8 @@ continuous delivery culture, i like open source projects.</p>
   <li>Support apps with an Event Driven Architecture using CDC pattern</li>
   <li>Work with database version control managers (Liquid Base and Flyway)</li>
   <li>Created various cloud native back-end services using Openshift (using Quarkus)</li>
+  <li>Create re-usable InnerSource system that handles Single-Sign-On logins, over 500 downloads and usage in organization</li>
+  <li>Create an organizational MCP that scans OSS vulnerabilities and SAST results that solves vulnerabilities</li>
 </ul>
 
 <hr />
@@ -180,7 +252,6 @@ continuous delivery culture, i like open source projects.</p>
   <li>Quarkus</li>
   <li>React</li>
   <li>Next.js</li>
-  <li>Vue.js</li>
   <li>Github</li>
   <li>Express.js</li>
   <li>Angular +2</li>
@@ -190,7 +261,10 @@ continuous delivery culture, i like open source projects.</p>
   <li>CouchDB, Cloudant</li>
   <li>Docker, Kubernetes</li>
   <li>PostgreSQL, Microsoft SQL, MySql</li>
-  <li>AWS CodeBuild,CodePipeline, API Gateway, EB, Lambda EC2, S3, Route 53</li>
+  <li>Azure App Service, Azure Functions, Blob Storage, Data Factory</li>
+  <li>Android &amp; iOS Pipelines</li>
+  <li>Flutter</li>
+  <li>AWS CodeBuild,CodePipeline, API Gateway, EB, Lambda EC2, S3, Route 53, ACM, ALB, AWS Secrets Manager, Cognito</li>
   <li>Akamai, Cloudfront</li>
   <li>Travis, CircleCI, Tekton</li>
 </ul>
@@ -198,29 +272,27 @@ continuous delivery culture, i like open source projects.</p>
 <h2 id="education">Education:</h2>
 <h4 id="bachelor-in-software-engineering-universidad-del-valle-de-méxico-guadalajara-august-2016--august-2019">Bachelor in Software Engineering, Universidad del valle de México, Guadalajara (August 2016 — August 2019)</h4>
 
-<h2 id="courses">Courses:</h2>
-<h4> AWS Certified Developer – Associate</h4>
-
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="f8960533-9d64-4753-a5ce-b4ada886f086" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-<h4 id="ckad-certified-kubernetes-application-developer">CKAD: Certified Kubernetes Application Developer</h4>
+<h2 id="articles">Articles:</h2>
 <ul>
-  <li><a href="https://www.credly.com/badges/e8bb0575-8d78-43e0-82c9-530a44be852d">CKAD: Certified Kubernetes Application Developer</a></li>
+  <li><a href="https://medium.com/@jordanaxelhernandez/shai-hulud-the-new-threat-that-is-hunting-npm-packages-and-stealing-cloud-credentials-03abdf9fefd1">Shai-hulud: the new threat that is hunting NPM packages and stealing cloud credentials</a></li>
 </ul>
 
-<h4 id="jsnad-openjs-nodejs-application-developer-the-linux-foundation-june-2021--march-2022">JSNAD: OpenJS Node.js Application Developer, The Linux Foundation (June 2021 — March 2022)</h4>
-<ul>
-  <li><a href="https://www.credly.com/badges/4070c5e7-0514-40d3-9147-bc4b2c68a71f">JSNAD: OpenJS Node.js</a></li>
-</ul>
+<h2 id="certifications">Certifications:</h2>
 
-<h4 id="becoming-user-centric-ibm-january-2020--march-2020">Becoming User Centric, IBM (January 2020 — March 2020)</h4>
-<ul>
-  <li><a href="https://www.credly.com/badges/d69c9fd9-c763-44f6-a8f8-666c3c634d93">Becoming User Centric</a></li>
-</ul>
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="f8960533-9d64-4753-a5ce-b4ada886f086" data-share-badge-host="https://www.credly.com"></div>
+<script type="text/javascript" async="" src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
-<h4 id="aws-cloud-practicioner-december-2022">AWS Cloud Practicioner December 2022</h4>
-<ul>
-  <li><a href="https://www.credly.com/badges/0ab6898b-6bac-4f66-949b-137aafcc7a11">AWS Certified Cloud Practitioner</a></li>
-</ul>
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="5dc5bc2e-fd46-48da-b23d-b671aa8df8cd" data-share-badge-host="https://www.credly.com"></div>
+<script type="text/javascript" async="" src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="e8bb0575-8d78-43e0-82c9-530a44be852d" data-share-badge-host="https://www.credly.com"></div>
+<script type="text/javascript" async="" src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="4070c5e7-0514-40d3-9147-bc4b2c68a71f" data-share-badge-host="https://www.credly.com"></div>
+<script type="text/javascript" async="" src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="d9caddec-d6f2-4b42-ad0c-554ce966be8d" data-share-badge-host="https://www.credly.com"></div>
+<script type="text/javascript" async="" src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
 <h4 id="microsoft-specialist-master-pearson-vue-languages-july-2015--july-2015-spanish">Microsoft Specialist Master, Pearson Vue (Languages July 2015 — July 2015) Spanish</h4>
 <ul>
@@ -232,5 +304,6 @@ continuous delivery culture, i like open source projects.</p>
       <footer></footer>
     </div>
     <script src="/assets/js/scale.fix.js"></script>
+    <script src="/assets/js/print-pdf.js"></script>
   </body>
 </html>

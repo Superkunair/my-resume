@@ -581,6 +581,15 @@ footer {
   pre, code {
     word-wrap: normal;
   }
+  .wrapper {
+    padding: 0 15px;
+  }
+  .sidebar {
+    padding: 30px 0;
+  }
+  section {
+    padding: 20px 0;
+  }
 }
 .link-wrapper-mobile {
   margin-bottom: 20px;
@@ -594,6 +603,28 @@ footer {
 @media print, screen and (max-width: 480px) {
   body {
     padding: 15px;
+  }
+  .wrapper {
+    padding: 0 10px;
+  }
+  .sidebar {
+    padding: 20px 0;
+    height: auto;
+    overflow: visible;
+  }
+  section {
+    padding: 15px 0;
+    margin: 0;
+  }
+  .skillbar {
+    margin: 10px 0;
+    height: 30px;
+  }
+  .skillbar-title, .skillbar-title-black {
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 15px;
   }
 }
 @media print {
@@ -670,13 +701,13 @@ footer {
 /* Skills bar effects */
 .skillbar {
   position: relative;
-  display: inline-block;
+  display: block;
   margin: 15px 0;
   width: 100%;
   background: #eee;
   height: 35px;
   border-radius: 3px;
-  width: 100%;
+  box-sizing: border-box;
 }
 
 .skillbar-title {
@@ -744,6 +775,120 @@ footer {
   line-height: 35px;
   color: #ffffff;
   color: rgba(0, 0, 0, 0.4);
+}
+
+/* Mobile responsive skill bars */
+@media screen and (max-width: 768px) {
+  .skillbar {
+    margin: 12px 0;
+    height: 32px;
+  }
+  .skillbar-title, .skillbar-title-black {
+    font-size: 12px;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 12px;
+  }
+  .skill-bar-percent {
+    font-size: 10px;
+    height: 32px;
+    line-height: 32px;
+    right: 8px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .skillbar {
+    margin: 10px 0;
+    height: 28px;
+  }
+  .skillbar-title, .skillbar-title-black {
+    font-size: 11px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 10px;
+  }
+  .skill-bar-percent {
+    font-size: 9px;
+    height: 28px;
+    line-height: 28px;
+    right: 6px;
+  }
+}
+/* Language + PDF actions (screen only) */
+.page-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.btn-pdf {
+  font: inherit;
+  font-size: 0.95rem;
+  cursor: pointer;
+  padding: 0.35rem 0.75rem;
+  border-radius: 4px;
+  border: 1px solid var(--clr-splitter-blockquote-and-section, #ccc);
+  background: var(--clr-bg, #fff);
+  color: var(--clr-h1-and-bold, #333);
+}
+
+.btn-pdf:hover,
+.btn-pdf:focus {
+  color: var(--clr-a-text-hvr, #069);
+  border-color: var(--clr-a-text-hvr, #069);
+  outline: none;
+}
+
+.btn-docx {
+  font: inherit;
+  font-size: 0.95rem;
+  cursor: pointer;
+  padding: 0.35rem 0.75rem;
+  border-radius: 4px;
+  border: 1px solid var(--clr-splitter-blockquote-and-section, #ccc);
+  background: var(--clr-bg, #fff);
+  color: var(--clr-h1-and-bold, #333);
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-docx:hover,
+.btn-docx:focus {
+  color: var(--clr-a-text-hvr, #069);
+  border-color: var(--clr-a-text-hvr, #069);
+  outline: none;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  /* Hide sidebar, show only the resume content */
+  .sidebar,
+  .sidebar-footer,
+  footer {
+    display: none !important;
+  }
+  /* Expand content to fill the full page */
+  div.wrapper {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  section {
+    float: none !important;
+    width: 100% !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

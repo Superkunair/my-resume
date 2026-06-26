@@ -6,7 +6,7 @@
 {% endcase %}
 
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -76,6 +76,12 @@
       </div>
       <section>
 
+      <div class="page-actions no-print">
+        {% include lang-switch.html %}
+        {% include pdf-export.html %}
+        {% include docx-export.html %}
+      </div>
+
       {{ content }}
 
       </section>
@@ -84,5 +90,6 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/print-pdf.js" | relative_url }}"></script>
   </body>
 </html>

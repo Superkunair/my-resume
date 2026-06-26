@@ -1,0 +1,3 @@
+<a class="btn-docx" href="{% if page.lang == 'es' %}{{ '/assets/resume-es.docx' | relative_url }}{% else %}{{ '/assets/resume-en.docx' | relative_url }}{% endif %}" download title="{% if page.lang == 'es' %}Descarga el currículum en formato Word (.docx). Actualiza los archivos con `./script/export-docx.sh` tras editar el Markdown.{% else %}Download the resume as a Word document (.docx). Regenerate files with `./script/export-docx.sh` after editing the Markdown.{% endif %}">
+  {% if page.lang == 'es' %}Descargar DOCX{% else %}Download DOCX{% endif %}
+</a>

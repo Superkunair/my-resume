@@ -187,3 +187,84 @@
     right: 6px;
   }
 }
+
+/* Language + PDF actions (screen only) */
+.page-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.btn-pdf {
+  font: inherit;
+  font-size: 0.95rem;
+  cursor: pointer;
+  padding: 0.35rem 0.75rem;
+  border-radius: 4px;
+  border: 1px solid var(--clr-splitter-blockquote-and-section, #ccc);
+  background: var(--clr-bg, #fff);
+  color: var(--clr-h1-and-bold, #333);
+}
+
+.btn-pdf:hover,
+.btn-pdf:focus {
+  color: var(--clr-a-text-hvr, #069);
+  border-color: var(--clr-a-text-hvr, #069);
+  outline: none;
+}
+
+.btn-docx {
+  font: inherit;
+  font-size: 0.95rem;
+  cursor: pointer;
+  padding: 0.35rem 0.75rem;
+  border-radius: 4px;
+  border: 1px solid var(--clr-splitter-blockquote-and-section, #ccc);
+  background: var(--clr-bg, #fff);
+  color: var(--clr-h1-and-bold, #333);
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-docx:hover,
+.btn-docx:focus {
+  color: var(--clr-a-text-hvr, #069);
+  border-color: var(--clr-a-text-hvr, #069);
+  outline: none;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Hide sidebar, show only the resume content */
+  .sidebar,
+  .sidebar-footer,
+  footer {
+    display: none !important;
+  }
+
+  /* Expand content to fill the full page */
+  div.wrapper {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  section {
+    float: none !important;
+    width: 100% !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
